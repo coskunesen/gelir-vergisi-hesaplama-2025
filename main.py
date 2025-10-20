@@ -42,5 +42,6 @@ ay=gelir/12
 aynet=net/12
 
 print("Yıllık Gelir",gelir,"Yıllık Net Gelir",net,"Aylık Brüt Gelir",ay,"Aylık Net Gelir",aynet,"Toplam Vergi",vergi)
-st.text_area("Hayırlı Bereketli Kazançlar")
+st.write("Hayırlı Bereketli Kazançlar")
+
 st.write(" Yıllık Gelir",gelir,"Yıllık Net Gelir",net,"Aylık Brüt Gelir",round(ay,2),"Aylık Net Gelir",round(aynet,2),"Toplam Vergi",vergi)
